@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+div h1{
+    background-image: url('bg.jpg');
+    color:aqua;
+    opacity: 0.5;
+    font-family: fantasy;
+    text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+.isi{
+    color:black;
+    text-align: center;
+    font-family: fantasy;
+}
+
+div ul {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+}
+div ul li a{
+    text-decoration: none;
+    font-family: fantasy;
+}
+div ul li p{
+    font-family: fantasy;
+    color: aqua;
+}
